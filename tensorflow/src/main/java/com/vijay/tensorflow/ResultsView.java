@@ -13,9 +13,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-package org.tensorflow.demo;
+package com.vijay.tensorflow;
 
-import org.tensorflow.demo.Classifier.Recognition;
+import com.vijay.tensorflow.Classifier.Recognition;
 
 import java.util.List;
 
