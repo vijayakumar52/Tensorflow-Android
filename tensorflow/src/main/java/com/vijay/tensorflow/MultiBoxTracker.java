@@ -197,7 +197,7 @@ public class MultiBoxTracker {
 
             //Temporarily removing detection confidence
             final String labelString = !TextUtils.isEmpty(recognition.title) ? String.format("%s", recognition.title) : "";
-            borderedText.drawText(canvas, trackedPos.left + cornerSize, trackedPos.bottom, labelString);
+            //borderedText.drawText(canvas, trackedPos.left + cornerSize, trackedPos.bottom, labelString);
         }
     }
 
@@ -224,7 +224,7 @@ public class MultiBoxTracker {
                 String message =
                         "Object tracking support not found. "
                                 + "See tensorflow/examples/android/README.md for details.";
-                Toast.makeText(context, message, Toast.LENGTH_LONG).show();
+                //Toast.makeText(context, message, Toast.LENGTH_LONG).show();
                 logger.e(message);
             }
         }
